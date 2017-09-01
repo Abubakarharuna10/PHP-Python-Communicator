@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bootstrap-PHP-Dashboard">
+    <meta name="author" content="Abhay Bhosale">
+    <div id="wrapper">
+  <div class="overlay"></div>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  </head>
+<body>
+
+<script type="text/javascript">
+var valueToSent = "1";
+console.log("valueToSent:\t"+valueToSent);
+
+$( document ).ready(function()
+{
+  $.ajax({
+        type: "POST",
+        url: "json-generator.php",
+        data: {"flagSent" : valueToSent},
+        // dataType: "json",
+        success: processSuccess,
+        error: processError,
+  }); //ajax ends here
+}); //ready ends here
+
+
+function processSuccess(data, status, req, xml, xmlHttpRequest, responseXML)
+{
+  // console.log("Success in sending Value to PHP file");
+  console.log(status);
+  console.log(data);
+}
+
+function processError(data, status, req, xml, xmlHttpRequest, responseXML)
+{
+  console.log("Error Occurred while sending value to the PHP file");
+  console.log(status);
+  console.log(data);
+}
+
+</script>
+
+
+</body>
+</html>
