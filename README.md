@@ -10,7 +10,7 @@
 	Do this by using this command ```sudo chown username:username -R directoryname```
 
 2.	Provide Executable permissions for <b>flag.json</b> and <b>json-generator.php</b>
-	Do this by using this command ```sudo chmod a+x filename``` and then sudo chmod 777 filename```
+	Do this by using this command ```sudo chmod a+x filename``` and then ```sudo chmod 777 filename```
 
 3.	Keep running the python script in a terminal using ```python3 filename.py```
 
