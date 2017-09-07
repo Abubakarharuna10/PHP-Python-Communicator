@@ -15,9 +15,10 @@ Aim: **Write JSON File from PHP - Read JSON File from Python**
 4.	Open <b>flag-sender.html</b> file from your browser.<br />
 	
 	
-<br />That's it!!! You have changed the flag value till now from your <b>flag.json</b> file.
-<br />Now check your terminal (which is running python script) for any changes in output.<br />
+<br />That's it!!!
+<br /> You have changed the flag value from your <b>flag.json</b>.
+<br />Now open your <b>flag.json</b> for confirming change in values.<br />
 
-<br />If Value sent from JavaScript is '0', it will print "Will Skip Code"
-<br />If Value sent from Javascript is '1', it will print "Will Execute Code"
+<br />If Value sent from <b>flag-sender.html</b> is '0', <b>json-checker.py</b> will print "Will Skip Code"
+<br />If Value sent from <b>flag-sender.html</b> is '1', <b>json-checker.py</b> will print "Will Execute Code"
 <br />
