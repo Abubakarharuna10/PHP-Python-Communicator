@@ -1,11 +1,11 @@
-# Read_Write_JSON
+# PHP-Python-Communication
 
-Aim: **Write JSON File from PHP - Read JSON File from Python**
+What's Done: **Writing JSON File using PHP >---> Reading JSON File using Python**
 
 
 <b>How to Use</b>:
 1.	Use all files under your username (not root).<br />
-	Do this by using ```sudo chown yourusername:yourusername -R Read-Write-JsonFile/```
+	Do this by using ```sudo chown yourusername:yourusername -R PHP-Python-Communicator/```
 
 2.	Provide Executable permissions for <b>flag.json</b> and <b>json-generator.php</b><br />
 	Do this by using ```sudo chmod a+x filename``` and then ```sudo chmod 777 filename```
