@@ -5,11 +5,11 @@ What's Done: **Writing JSON File using PHP >---> Reading JSON File using Python*
 <b>To install php5.6</b>:
 Use these commands:<br />
 
-```sudo add-apt-repository ppa:ondrej/php```
-```sudo apt-get install software-properties-common```
-```sudo apt-get update```
-```sudo apt-get install php5.6```
-```sudo apt-get install php5.6-mbstring php5.6-mcrypt php5.6-mysql php5.6-xml```
+<br />```sudo add-apt-repository ppa:ondrej/php```
+<br />```sudo apt-get install software-properties-common```
+<br />```sudo apt-get update```
+<br />```sudo apt-get install php5.6```
+<br />```sudo apt-get install php5.6-mbstring php5.6-mcrypt php5.6-mysql php5.6-xml```
 
 
 
